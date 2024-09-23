@@ -1,37 +1,32 @@
 
 
-hayvon1 = input('Hayvon: ')
-ogirligi1 = int(input('Ogirligi: ')) 
-rangi1 = input('Rangi: ')
-yoshi1 = int(input('Yoshi: ')) 
-ismi1 = input('Ismi: ')
+a, b = map(int, input("Ikkita int son kiriting: ").split())
 
-print(f' Hayvon: {hayvon1}  Ogirligi: {ogirligi1},kg Rangi: {rangi1} Yoshi: {yoshi1},yil Ismi: {ismi1}')
+a_str = str(a)
+b_float = float(b)
 
-hayvon2 = input('Hayvon: ')
-ogirligi2 = int(input('Ogirligi: ')) 
-rangi2 = input('Rangi: ')
-yoshi2 = int(input('Yoshi: ')) 
-ismi2 = input('Ismi: ')
+print(f" {a_str} \n {b_float}")
 
-print(f' Hayvon: {hayvon2}  Ogirligi: {ogirligi2} Rangi: {rangi2} Yoshi: {yoshi2} Ismi: {ismi2}')
+a, b = map(int, input("Ikkita son kiriting: ").split())
+
+a, b = b, a
+
+print(a, b)
 
 
-hayvon3 = input('Hayvon: ')
-ogirligi3 = int(input('Ogirligi: ')) 
-rangi3 = input('Rangi: ')
-yoshi3 = int(input('Yoshi: ')) 
-ismi3 = input('Ismi: ')
-
-print(f' Hayvon: {hayvon3}  Ogirligi: {ogirligi3} Rangi: {rangi3} Yoshi: {yoshi3} Ismi: {ismi3}')
+num1 = 55
+num2 = '88'
+num3 = 5.5
+num4 = 102
 
 
-hayvon4 = input('Hayvon: ')
-ogirligi4 = int(input('Ogirligi: ')) 
-rangi4 = input('Rangi: ')
-yoshi4 = int(input('Yoshi: ')) 
-ismi4 = input('Ismi: ')
-
-print(f' Hayvon: {hayvon4}  Ogirligi: {ogirligi4} Rangi: {rangi4} Yoshi: {yoshi4} Ismi: {ismi4}')
+num1_str = str(num1)
+num2_int = int(num2)
+num3_int = int(num3)
+num4_float = float(num4)
 
 
+print(num1_str)
+print(num2_int)
+print(num3_int)
+print(num4_float)
